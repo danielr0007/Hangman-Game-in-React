@@ -1,6 +1,7 @@
 https://hangmanbydaniel.netlify.app/
 
-![Screen Shot 2022-10-17 at 9 27 39 PM](https://user-images.githubusercontent.com/97550201/196313985-10b1cce6-a09e-4ff6-a628-9b29fc7942d9.png)
+![Screen Shot 2022-10-17 at 9 30 31 PM](https://user-images.githubusercontent.com/97550201/196314184-8ddaf6f1-0bf5-45ba-a24d-fa16798b4b1f.png)
+
 
 
 # Getting Started with Create React App
