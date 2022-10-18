@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Cairo+Play:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(244, 244, 244);
+}
+
+.inputs {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  width: 100%;
+  background-color: rgb(255, 157, 0);
+  border: none;
+  padding: 10px 19px;
+  border-radius: 15px;
+  color: rgb(42, 76, 108);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.hide {
+  display: none;
+}
+
+.non-visible {
+  visibility: hidden;
+}
+
+/* HEADER//////////////////////////////////// */
+/* ////////////////////////////////////////// */
+/* ////////////////////////////////////////// */
+.header {
+  background-color: rgb(42, 76, 108);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+#header-div1 {
+  padding: 1px;
+  flex: 1 0 70%;
+  text-align: center;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 25px;
+}
+
+#header-div2 {
+  padding: 10px 20px 10px 0;
+  flex: 0 0 30%;
+  text-align: right;
+  font-weight: 800;
+  font-family: "Cairo Play", cursive;
+  font-size: 20px;
+}
+
+/* MAINSPACE//////////////////////////////////// */
+/* ////////////////////////////////////////// */
+/* ////////////////////////////////////////// */
+
+main {
+  height: 60vh;
+}
+
+.man {
+  height: 80%;
+}
+
+#rope {
+  position: absolute;
+  left: 38.5%;
+  top: 13%;
+  width: 320px;
+}
+
+#head {
+  position: absolute;
+  left: 48%;
+  top: 17%;
+  width: 120px;
+}
+
+#body {
+  position: absolute;
+  left: 48%;
+  top: 28.1%;
+  width: 120px;
+}
+
+#left-arm {
+  position: absolute;
+  left: 46.9%;
+  top: 28%;
+  width: 90px;
+}
+
+#right-arm {
+  position: absolute;
+  left: 51.1%;
+  top: 28%;
+  width: 90px;
+}
+
+#left-leg {
+  position: absolute;
+  left: 46.9%;
+  top: 39.5%;
+  width: 90px;
+}
+
+#right-leg {
+  position: absolute;
+  left: 51.1%;
+  top: 39.5%;
+  width: 90px;
+}
+
+.question-and-answer-container {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(197, 197, 197);
+}
+
+.type-question-container {
+  padding: 10px;
+}
+
+.type-question-container input {
+  width: 300px;
+  font-size: 20px;
+}
+
+.type-question-container button {
+}
+
+#question {
+  font-family: "Cairo Play", cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+#answer {
+  font-family: "Cairo Play", cursive;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* LETTERSPACE//////////////////////////////////// */
+/* ////////////////////////////////////////// */
+/* ////////////////////////////////////////// */
+
+.outer-wrap {
+  padding: 5px;
+  margin-top: 150px;
+  background-color: rgb(42, 76, 108);
+}
+
+.letters-container {
+  width: 60%;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.individual-letter-container {
+}
+
+.individual-letter-container p {
+  width: 60px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: rgb(42, 76, 108);
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
+
+#reset {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.answer-question-container {
+  height: 165px;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* LETTER FILLER SECTION */
+.letter-filler {
+  margin: auto;
+  width: 60%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.letter-box {
+  padding: 5px 15px;
+  border-bottom: solid rgb(255, 157, 0) 5px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* // YOU LOSE SECTION THAT APPEARS WHEN PERSON RUNS OUT OF TRIES/////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////// */
+.youlose-container {
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youlose-container h2 {
+  font-size: 50px;
+}
+
+/* YOU WIN */
+.you-win {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 3px 6px black;
+  font-size: 50px;
+  font-weight: 600;
+}
