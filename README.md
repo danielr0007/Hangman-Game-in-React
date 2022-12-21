@@ -1,5 +1,7 @@
 https://hangmanbydaniel.netlify.app/
 
+The first React.js project that I created after learning the framework. It is not the traditional hangman because I was seeking to challenge myself by writing my own logic for the game... This project gave me an extensive understanding of hooks and the style of programming that React requires. Desktop version only.
+
 ![Screen Shot 2022-10-17 at 9 30 31 PM](https://user-images.githubusercontent.com/97550201/196314184-8ddaf6f1-0bf5-45ba-a24d-fa16798b4b1f.png)
 
 
